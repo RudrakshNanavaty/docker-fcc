@@ -1,0 +1,11 @@
+version: "3"
+services:
+  docker_fcc:
+    build: .
+    ports:
+      - 3000:3000
+    env_file:
+      - ./.env
+    # alternatively
+    # environment:
+    #   - name=value
