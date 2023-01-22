@@ -2,7 +2,7 @@ version: "3"
 services:
   docker_fcc:
     ports:
-      - 4000:3000
+      - 3001:3000
     volumes:
       # bind mount
       - ./:/app
